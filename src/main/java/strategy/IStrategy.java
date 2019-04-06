@@ -1,8 +1,10 @@
-package pattern_strategy;
+package strategy;
 
 /**
+ * 抽象策略接口
+ *
  * @author 赵翔 xiangflightATfoxmaildotcom
- * @version pattern_strategy
+ * @version strategy
  * @date 2019-04-06 11:49
  */
 
