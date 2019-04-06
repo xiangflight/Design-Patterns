@@ -21,9 +21,15 @@ public abstract class AbstractSubject {
      * 增加一个观察者
      *
      * @param observer 观察者
+     * @throws NullPointerException if the parameter is null
      */
     public void addObserver(IObserver observer) {
-        this.observers.add(observer);
+        if (observer == null) {
+            throw new NullPointerException();
+        }
+        if (!observers.contains(observer)) {
+            this.observers.addElement(observer);
+        }
     }
 
     /**
@@ -32,7 +38,7 @@ public abstract class AbstractSubject {
      * @param observer 观察者
      */
     public void delObserver(IObserver observer) {
-        this.observers.remove(observer);
+        this.observers.removeElement(observer);
     }
 
     /**
