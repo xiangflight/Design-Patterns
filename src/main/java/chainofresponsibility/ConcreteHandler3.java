@@ -1,14 +1,14 @@
 package chainofresponsibility;
 
 /**
- * 具体处理者2
+ * 具体处理者3
  *
  * @author 赵翔 xiangflightATfoxmaildotcom
  * @version chainofresponsibility
  * @date 2019-04-09 20:38
  */
 
-public class Concretehandler2 extends AbstractHandler{
+public class ConcreteHandler3 extends AbstractHandler{
 
     @Override
     protected Level getHandlerLevel() {

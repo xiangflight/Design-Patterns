@@ -8,7 +8,7 @@ package chainofresponsibility;
  * @date 2019-04-09 20:38
  */
 
-public class Concretehandler1 extends AbstractHandler{
+public class ConcreteHandler1 extends AbstractHandler{
 
     @Override
     protected Level getHandlerLevel() {
