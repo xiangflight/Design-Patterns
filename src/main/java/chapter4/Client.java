@@ -8,9 +8,6 @@ package chapter4;
 public class Client {
 
     public static void main(String[] args) {
-        IPrettyGirl yanYan = new PrettyGirl("嫣嫣");
-        AbstractSearcher searcher = new Searcher(yanYan);
-        searcher.show();
     }
 
 }
