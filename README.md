@@ -11,4 +11,13 @@
 
 ## 演绎
 
-1. 单例模式 （Singleton Pattern）[第7章](src/main/java/chapter7)
+单例模式 （Singleton Pattern）[第7章](src/main/java/chapter7) 
+- ensure a class has only one instance
+- provide a global point of access to it
+
+工厂方法模式 (Factory Method Pattern) [第8章](src/main/java/chapter8)
+- a interface for creating an object
+- let subclasses decide which class to instantiate
+- let a class defer instantiation to subclasses
+- 典型的解耦框架框架，符合迪米特法则、依赖倒置原则和里氏替换原则
+- 扩展：简单工厂模式（Simple Factory Pattern，也叫做 静态工厂模式）
