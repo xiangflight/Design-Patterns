@@ -25,4 +25,9 @@
 抽象工厂模式 (Abstract Factory Pattern) [第9章](src/main/java/chapter9)
 - provide an interface
 - creating families of related or dependent objects
-- without specifying their concrete classes 
+- without specifying their concrete classes
+
+模版方式模式 (Template Method Pattern) [第10章](src/main/java/chapter10)
+- define the skeleton of an algorithm in an operation
+- defer some steps to subclasses
+- 钩子方法（Hook Method)
