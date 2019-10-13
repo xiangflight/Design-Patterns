@@ -21,3 +21,8 @@
 - let a class defer instantiation to subclasses
 - 典型的解耦框架框架，符合迪米特法则、依赖倒置原则和里氏替换原则
 - 扩展：简单工厂模式（Simple Factory Pattern，也叫做 静态工厂模式）
+
+抽象工厂模式 (Abstract Factory Pattern) [第9章](src/main/java/chapter9)
+- provide an interface
+- creating families of related or dependent objects
+- without specifying their concrete classes 
