@@ -31,3 +31,7 @@
 - define the skeleton of an algorithm in an operation
 - defer some steps to subclasses
 - 钩子方法（Hook Method)
+
+建造者模式 (Builder Pattern) [第11章](src/main/java/chapter11)
+- separate the construction of a complex object from its representation
+- 与工厂模式的不同点在于：构造者关心的是基本方法的调用顺序安排，工厂关心创建
