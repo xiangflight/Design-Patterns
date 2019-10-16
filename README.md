@@ -35,3 +35,8 @@
 建造者模式 (Builder Pattern) [第11章](src/main/java/chapter11)
 - separate the construction of a complex object from its representation
 - 与工厂模式的不同点在于：构造者关心的是基本方法的调用顺序安排，工厂关心创建
+
+代理模式 (Proxy Pattern) [第12章](src/main/java/chapter12)
+- provide a surrogate or placeholder for another object
+- control access to real object
+- 动态代理在运行阶段才指定代理哪一个对象
