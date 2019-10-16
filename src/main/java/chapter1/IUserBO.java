@@ -7,16 +7,16 @@ package chapter1;
 
 public interface IUserBO {
 
-    void setUserId(String userId);
-
     String getUserId();
 
-    void setPassword(String password);
+    void setUserId(String userId);
 
     String getPassword();
 
-    void setUserName(String userName);
+    void setPassword(String password);
 
     String getUserName();
+
+    void setUserName(String userName);
 
 }

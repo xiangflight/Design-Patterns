@@ -8,5 +8,4 @@ package chapter1;
 public interface IUserInfo extends IUserBO, IUserBiz {
 
 
-
 }

@@ -7,7 +7,7 @@ package chapter3;
 
 public interface IDriver {
 
-    public void setCar(ICar car);
+    void setCar(ICar car);
 
-    public void drive();
+    void drive();
 }

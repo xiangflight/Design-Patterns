@@ -14,18 +14,13 @@ public class UserInfo implements IUserInfo {
     private String password;
 
     @Override
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
-
-    @Override
     public String getUserId() {
         return userId;
     }
 
     @Override
-    public void setPassword(String password) {
-        this.password = password;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
     @Override
@@ -34,13 +29,18 @@ public class UserInfo implements IUserInfo {
     }
 
     @Override
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override
     public String getUserName() {
         return userName;
+    }
+
+    @Override
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     @Override

@@ -10,7 +10,7 @@ public class GamePlayerProxy implements IGamePlayer, IProxy {
     private IGamePlayer gamePlayer;
 
     public GamePlayerProxy(IGamePlayer gamePlayer) {
-      this.gamePlayer = gamePlayer;
+        this.gamePlayer = gamePlayer;
     }
 
     @Override

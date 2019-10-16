@@ -5,7 +5,7 @@ package chapter1;
  * @date 2019/10/4 10:54 下午
  */
 
-public class Phone implements IConnectionManager, IDataTransfer{
+public class Phone implements IConnectionManager, IDataTransfer {
 
     private String phoneNumber;
 

@@ -24,7 +24,8 @@ public class Emperor {
         }
     }
 
-    private Emperor() {}
+    private Emperor() {
+    }
 
     private Emperor(String name) {
         nameList.add(name);

@@ -7,6 +7,6 @@ package chapter3;
 
 public interface ICar {
 
-    public void run();
+    void run();
 
 }

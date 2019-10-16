@@ -24,9 +24,9 @@ public class BookStore {
         NumberFormat formatter = NumberFormat.getCurrencyInstance();
         formatter.setMaximumFractionDigits(2);
         System.out.println("-----书店卖出去的书籍记录如下：-----");
-        for (IBook book: bookList) {
+        for (IBook book : bookList) {
             System.out.println("书籍名称: " + book.getName() + "\t书籍作者: " + book.getAuthor() + "\t书籍价格："
-            + formatter.format(book.getPrice() / 100.0) + "元");
+                    + formatter.format(book.getPrice() / 100.0) + "元");
         }
     }
 

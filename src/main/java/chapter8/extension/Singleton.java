@@ -7,8 +7,10 @@ package chapter8.extension;
 
 public class Singleton {
 
-    private Singleton() {}
+    private Singleton() {
+    }
 
-    public void doSomething() {}
+    public void doSomething() {
+    }
 
 }

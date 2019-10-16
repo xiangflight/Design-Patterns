@@ -5,7 +5,7 @@ package chapter4;
  * @date 2019/10/9 9:56 下午
  */
 
-public class PrettyGirl implements IGoodBodyGirl, IGreatTemperamentGirl{
+public class PrettyGirl implements IGoodBodyGirl, IGreatTemperamentGirl {
 
     private String name;
 
