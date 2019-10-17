@@ -40,3 +40,12 @@
 - provide a surrogate or placeholder for another object
 - control access to real object
 - 动态代理在运行阶段才指定代理哪一个对象
+
+原型模式 (Prototype Pattern) [第13章](src/main/java/chapter13)
+- specify the kinds of objects to create using a prototypical instance
+- create new objects by copying this prototype
+- 由一个正本创建多个副本
+- 在 Java 中只需要实现 Cloneable 接口并覆写 clone() 方法即可
+- 原型模式是在内存中的二进制流的拷贝，绕过了构造函数，性能较高
+- 浅拷贝 --> Java 中只拷贝本对象，对内部的数组、引用对象等不拷贝，还是指向原生对象的内部元素地址
+- 深拷贝 --> 原生对象和拷贝对象不共享私有变量
