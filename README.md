@@ -49,3 +49,8 @@
 - 原型模式是在内存中的二进制流的拷贝，绕过了构造函数，性能较高
 - 浅拷贝 --> Java 中只拷贝本对象，对内部的数组、引用对象等不拷贝，还是指向原生对象的内部元素地址
 - 深拷贝 --> 原生对象和拷贝对象不共享私有变量
+
+中介者模式 (Mediator Pattern) [第14章](src/main/java/chapter14)
+- define a object that encapsulates how a set of objects interact.
+- promote loose coupling by keeping objects from referring to each other
+- vary their interaction independently.
