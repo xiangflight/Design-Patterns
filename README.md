@@ -75,4 +75,8 @@
 
 ---
 
-命令模式
+命令模式 (Command Pattern) [第15章](src/main/java/chapter15)
+- encapsulate a request as an object
+- support undoable operations
+- 优点；调用者与接收者角色之间解耦，可扩展性
+- 使用场景：只要有命令的地方就可以采用命令模式
