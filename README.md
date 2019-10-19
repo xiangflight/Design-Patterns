@@ -15,6 +15,8 @@
 - ensure a class has only one instance
 - provide a global point of access to it
 
+---
+
 工厂方法模式 (Factory Method Pattern) [第8章](src/main/java/chapter8)
 - a interface for creating an object
 - let subclasses decide which class to instantiate
@@ -22,24 +24,34 @@
 - 典型的解耦框架框架，符合迪米特法则、依赖倒置原则和里氏替换原则
 - 扩展：简单工厂模式（Simple Factory Pattern，也叫做 静态工厂模式）
 
+---
+
 抽象工厂模式 (Abstract Factory Pattern) [第9章](src/main/java/chapter9)
 - provide an interface
 - creating families of related or dependent objects
 - without specifying their concrete classes
 
-模版方式模式 (Template Method Pattern) [第10章](src/main/java/chapter10)
+---
+
+模版方法模式 (Template Method Pattern) [第10章](src/main/java/chapter10)
 - define the skeleton of an algorithm in an operation
 - defer some steps to subclasses
 - 钩子方法（Hook Method)
+
+---
 
 建造者模式 (Builder Pattern) [第11章](src/main/java/chapter11)
 - separate the construction of a complex object from its representation
 - 与工厂模式的不同点在于：构造者关心的是基本方法的调用顺序安排，工厂关心创建
 
+---
+
 代理模式 (Proxy Pattern) [第12章](src/main/java/chapter12)
 - provide a surrogate or placeholder for another object
 - control access to real object
 - 动态代理在运行阶段才指定代理哪一个对象
+
+---
 
 原型模式 (Prototype Pattern) [第13章](src/main/java/chapter13)
 - specify the kinds of objects to create using a prototypical instance
@@ -50,7 +62,17 @@
 - 浅拷贝 --> Java 中只拷贝本对象，对内部的数组、引用对象等不拷贝，还是指向原生对象的内部元素地址
 - 深拷贝 --> 原生对象和拷贝对象不共享私有变量
 
+---
+
 中介者模式 (Mediator Pattern) [第14章](src/main/java/chapter14)
 - define a object that encapsulates how a set of objects interact.
 - promote loose coupling by keeping objects from referring to each other
 - vary their interaction independently.
+- 类比：网络拓扑中的星型网络拓扑
+- 符合迪米特法则
+- 优点：减少类之间的依赖，把一对多变成一对一，降低了类间的耦合
+- 使用场景：类图中出现蜘蛛网状结构
+
+---
+
+命令模式
