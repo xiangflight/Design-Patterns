@@ -29,7 +29,7 @@ public class Client {
     }
 
     public static String getRandString(int maxLength) {
-        String source ="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String source = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         StringBuffer sb = new StringBuffer();
         Random rand = new Random();
         for (int i = 0; i < maxLength; i++) {

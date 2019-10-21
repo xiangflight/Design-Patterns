@@ -1,4 +1,4 @@
-《设计模式之禅》
+# 《设计模式之禅》
 
 ## 六大设计原则 (SOLID)
 
@@ -80,3 +80,10 @@
 - support undoable operations
 - 优点；调用者与接收者角色之间解耦，可扩展性
 - 使用场景：只要有命令的地方就可以采用命令模式
+
+---
+
+责任链模式 (Responsibility Chain Pattern) [第16章](src/main/java/chapter16)
+- avoid coupling the sender of a request to its receiver
+- chain the receiving objects and pass the request along the chain
+- 请求者可以不用知道到底是谁处理请求

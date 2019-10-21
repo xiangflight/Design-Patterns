@@ -11,7 +11,7 @@ public class AddRequirementCommand extends AbstractCommand {
     @Override
     public void execute() {
         super.rg.find();
-        super.rg.add();;
+        super.rg.add();
         super.rg.plan();
     }
 }

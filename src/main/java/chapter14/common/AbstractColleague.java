@@ -1,7 +1,5 @@
 package chapter14.common;
 
-import chapter14.Mediator;
-
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
  * @date 2019/10/19
