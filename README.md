@@ -60,7 +60,7 @@
 - 在 Java 中只需要实现 Cloneable 接口并覆写 clone() 方法即可
 - 原型模式是在内存中的二进制流的拷贝，绕过了构造函数，性能较高
 - 浅拷贝 --> Java 中只拷贝本对象，对内部的数组、引用对象等不拷贝，还是指向原生对象的内部元素地址
-- 深拷贝 --> 原生对象和拷贝对象不共享私有变量
+- 深拷贝 --> 原生对象和拷贝对象不共享私有变量  
 
 ---
 
@@ -87,3 +87,12 @@
 - avoid coupling the sender of a request to its receiver
 - chain the receiving objects and pass the request along the chain
 - 请求者可以不用知道到底是谁处理请求
+
+---
+
+装饰者模式 (Decorator Pattern) [第17章](src/main/java/chapter17)
+- attach additional responsibilities to an object dynamically
+- provide a flexible alternative to subclassing for extending functionality
+- 继承关系的一个替代方案
+- 动态地扩展一个实现类的功能
+- 注意与代理模式的区别
