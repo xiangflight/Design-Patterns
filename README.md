@@ -96,3 +96,10 @@
 - 继承关系的一个替代方案
 - 动态地扩展一个实现类的功能
 - 注意与代理模式的区别
+
+---
+
+策略模式 (Strategy Pattern) [第18章](src/main/java/chapter18)
+- define a family of algorithms
+- encapsulate each one and make them interchangeable
+- 采用的是面向对象的继承和多态机制
