@@ -103,3 +103,10 @@
 - define a family of algorithms
 - encapsulate each one and make them interchangeable
 - 采用的是面向对象的继承和多态机制
+
+---
+
+适配器模式 (Adapter Pattern) [第19章](src/main/java/chapter19)
+- convert the interface of a class into another interface clients expect.
+- 是一个补偿模式，不应该在设计时考虑它
+- 类适配器模式和对象适配器模式，前者采用继承，后者采用关联，目的都是扩展
