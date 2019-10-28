@@ -110,3 +110,11 @@
 - convert the interface of a class into another interface clients expect.
 - 是一个补偿模式，不应该在设计时考虑它
 - 类适配器模式和对象适配器模式，前者采用继承，后者采用关联，目的都是扩展
+
+---
+
+迭代器模式 (Iterator Pattern) [第20章](src/main/java/chapter20)
+- provide a way to access the elements of an aggregate object sequentially
+- without exposing its underlying representations.
+- 类似数据库中的游标，可以在容器中遍历元素
+- 一般不需要自己实现，已融入到编程语言中
