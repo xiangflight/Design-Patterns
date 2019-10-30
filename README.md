@@ -118,3 +118,11 @@
 - without exposing its underlying representations.
 - 类似数据库中的游标，可以在容器中遍历元素
 - 一般不需要自己实现，已融入到编程语言中
+
+---
+
+组合模式 (Composite Pattern) [第21章](src/main/java/chapter21)
+- 也称 合成模式 或 部分-整体模式(Part-Whole)，用来描述整体和部分的关系
+- Composite objects into tree structures to represent part-whole hierarchies
+- client treat individual objects and compositions of objects uniformly
+- 只要是树形结构，就可以考虑组合模式
