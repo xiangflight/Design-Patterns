@@ -126,3 +126,11 @@
 - Composite objects into tree structures to represent part-whole hierarchies
 - client treat individual objects and compositions of objects uniformly
 - 只要是树形结构，就可以考虑组合模式
+
+---
+
+观察者模式 (Observer Pattern) [第22章](src/main/java/chapter22)
+- 也称 发布订阅模式(Publish/Subscribe)
+- Define a one-to-many dependency between objects
+- When one object changes state, all its dependents are notified and updated automatically
+- 建立了一套触发机制，适用多级触发场景，跨系统的消息交换场景，如消息队列的处理机制
