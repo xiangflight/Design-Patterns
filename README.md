@@ -134,3 +134,11 @@
 - Define a one-to-many dependency between objects
 - When one object changes state, all its dependents are notified and updated automatically
 - 建立了一套触发机制，适用多级触发场景，跨系统的消息交换场景，如消息队列的处理机制
+
+---
+
+门面模式 (Facade Pattern) [第23章](src/main/java/chapter23)
+- 也称外观模式，一种常见的封装模式
+- Provide a unified interface to a set of interfaces in a subsystem.
+- Facade defines a higher-level interface that make the subsystem easier to use.
+- 可拆分门面，门面对象不要参与业务逻辑，把业务逻辑封装在子系统中
