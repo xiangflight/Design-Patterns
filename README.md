@@ -142,3 +142,11 @@
 - Provide a unified interface to a set of interfaces in a subsystem.
 - Facade defines a higher-level interface that make the subsystem easier to use.
 - 可拆分门面，门面对象不要参与业务逻辑，把业务逻辑封装在子系统中
+
+---
+
+备忘录模式 (Memento Pattern) [第24章](src/main/java/chapter24)
+- capture and externalize an object's internal state
+- restore to that state later
+- 需要保存和恢复数据的相关状态场景
+- 相当于把数据缓存在内存中，随时可以获取，注意内存溢出的问题
