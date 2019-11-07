@@ -150,3 +150,11 @@
 - restore to that state later
 - 需要保存和恢复数据的相关状态场景
 - 相当于把数据缓存在内存中，随时可以获取，注意内存溢出的问题
+
+---
+
+访问者模式 (Visitor Pattern) [第25章](src/main/java/chapter25)
+- Represent an operation to be performed on the elements of an object structure
+- define new operation without changing the classes of the elements on which it operates
+- 对迭代器模式的扩充，迭代器模式只能访问同类型或同接口的数据，而访问者可以访问不同的对象 
+- 集中规整模式
