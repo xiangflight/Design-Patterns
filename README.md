@@ -172,3 +172,11 @@
 - 按照规定语法进行解析的方案
 - Given a language, define a representation for its grammar along with an interpreter
 - the interpreter use the representation to interpret sentences in the language
+
+---
+
+享元模式 (Flyweight Pattern) [第28章](src/main/java/chapter28)
+- Using sharing to support large numbers of fine-grained objects efficiently
+- 一种池技术的重要实现方式
+- 可大大减少应用程序创建的对象，降低内存的占用
+- 享元代表"特轻量级"，指我们的类要轻量级，粒度要小
