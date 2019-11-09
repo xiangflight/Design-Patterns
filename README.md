@@ -165,3 +165,10 @@
 - allow an object to alter its behavior when its internal behavior state changes
 - the object will appear to chlange its class
 - 适用场景：1. 行为随状态改变而改变 2. 条件、分支判断语句的替代者
+
+---
+
+解释器模式 (Interpreter Pattern) [第27章](src/main/java/chapter27)
+- 按照规定语法进行解析的方案
+- Given a language, define a representation for its grammar along with an interpreter
+- the interpreter use the representation to interpret sentences in the language
