@@ -158,3 +158,10 @@
 - define new operation without changing the classes of the elements on which it operates
 - 对迭代器模式的扩充，迭代器模式只能访问同类型或同接口的数据，而访问者可以访问不同的对象 
 - 集中规整模式
+
+--- 
+
+状态模式 (State Pattern) [第26章](src/main/java/chapter26)
+- allow an object to alter its behavior when its internal behavior state changes
+- the object will appear to chlange its class
+- 适用场景：1. 行为随状态改变而改变 2. 条件、分支判断语句的替代者
