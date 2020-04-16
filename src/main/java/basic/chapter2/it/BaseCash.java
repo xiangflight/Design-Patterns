@@ -8,6 +8,7 @@ package basic.chapter2.it;
 public abstract class BaseCash {
     /**
      * 抽象方法，表示收银
+     *
      * @param money 应该收银
      * @return 实际收银
      */

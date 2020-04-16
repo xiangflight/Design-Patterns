@@ -8,12 +8,14 @@ package basic.chapter14.it;
 public class Client {
 
     public static void main(String[] args) {
-        BaseSubject subject = new Boss();
-        IObserver observer1 = new ConcreteObserver1();
-        subject.add(observer1);
-        IObserver observer2 = new ConcreteObserver2();
-        subject.add(observer2);
-        subject.update();
+        Boss boss = new Boss();
+
+        boss.add(new ConcreteObserver1(boss, "X"));
+        boss.add(new ConcreteObserver1(boss, "Y"));
+        boss.add(new ConcreteObserver1(boss, "Z"));
+
+        boss.setState("ABC");
+        boss.update();
     }
 
 }

@@ -6,8 +6,19 @@ package basic.chapter14.it;
  */
 
 public class ConcreteObserver1 implements IObserver {
+
+    private String name;
+    private String state;
+    private Boss subject;
+
+    public ConcreteObserver1(Boss subject, String name) {
+        this.subject = subject;
+        this.name = name;
+    }
+
     @Override
     public void update() {
-        System.out.println("具体的被通知者1执行行为");
+        state = subject.getState();
+        System.out.println(String.format("观察者%s的新状态是%s", name, state));
     }
 }

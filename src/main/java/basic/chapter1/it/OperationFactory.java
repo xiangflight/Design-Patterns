@@ -11,7 +11,7 @@ public class OperationFactory {
         BaseOperation operation = null;
         switch (operator) {
             case "+":
-                operation =  new OperationAdd();
+                operation = new OperationAdd();
                 break;
             case "-":
                 operation = new OperationSub();

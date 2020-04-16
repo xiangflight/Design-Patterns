@@ -7,4 +7,13 @@ package basic.chapter14.it;
 
 public class Boss extends BaseSubject {
 
+    private String state;
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
 }
