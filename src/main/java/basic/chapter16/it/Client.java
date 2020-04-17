@@ -2,30 +2,31 @@ package basic.chapter16.it;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
- * @date 2020/4/16
+ * @date 2020/4/17
  */
 
 public class Client {
 
     public static void main(String[] args) {
-        Work emergencyProject = new Work();
-        emergencyProject.setHour(9);
-        emergencyProject.writeProgram();
-        emergencyProject.setHour(10);
-        emergencyProject.writeProgram();
-        emergencyProject.setHour(12);
-        emergencyProject.writeProgram();
-        emergencyProject.setHour(13);
-        emergencyProject.writeProgram();
-        emergencyProject.setHour(14);
-        emergencyProject.writeProgram();
-        emergencyProject.setHour(17);
-        emergencyProject.writeProgram();
-        emergencyProject.setTaskFinished(false);
-        emergencyProject.writeProgram();
-        emergencyProject.setHour(19);
-        emergencyProject.writeProgram();
-        emergencyProject.setHour(22);
-        emergencyProject.writeProgram();
+        Work emergency = new Work();
+        emergency.setHour(9);
+        emergency.writeProgram();
+        emergency.setHour(10);
+        emergency.writeProgram();
+        emergency.setHour(12);
+        emergency.writeProgram();
+        emergency.setHour(13);
+        emergency.writeProgram();
+        emergency.setHour(14);
+        emergency.writeProgram();
+        emergency.setHour(17);
+        emergency.writeProgram();
+        emergency.setFinished(false);
+        emergency.writeProgram();
+        emergency.setHour(19);
+        emergency.writeProgram();
+        emergency.setHour(22);
+        emergency.writeProgram();
     }
+
 }

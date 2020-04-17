@@ -2,10 +2,10 @@ package basic.chapter16.it;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
- * @date 2020/4/16
+ * @date 2020/4/17
  */
 
-public abstract class State {
+public abstract class AbstractState {
 
     public abstract void writeProgram(Work work);
 

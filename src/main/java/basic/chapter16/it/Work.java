@@ -2,25 +2,31 @@ package basic.chapter16.it;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
- * @date 2020/4/16
+ * @date 2020/4/17
  */
 
 public class Work {
 
-    private double hour;
-    private State state;
-    private boolean taskFinished;
+    private AbstractState state;
 
     public Work() {
         state = new ForenoonState();
     }
 
-    public boolean isTaskFinished() {
-        return taskFinished;
+    private double hour;
+
+    private boolean finished;
+
+    public void writeProgram() {
+        state.writeProgram(this);
     }
 
-    public void setTaskFinished(boolean taskFinished) {
-        this.taskFinished = taskFinished;
+    public AbstractState getState() {
+        return state;
+    }
+
+    public void setState(AbstractState state) {
+        this.state = state;
     }
 
     public double getHour() {
@@ -31,15 +37,11 @@ public class Work {
         this.hour = hour;
     }
 
-    public State getState() {
-        return state;
+    public boolean isFinished() {
+        return finished;
     }
 
-    public void setState(State state) {
-        this.state = state;
-    }
-
-    public void writeProgram() {
-        state.writeProgram(this);
+    public void setFinished(boolean finished) {
+        this.finished = finished;
     }
 }

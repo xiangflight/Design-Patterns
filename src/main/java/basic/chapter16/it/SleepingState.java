@@ -2,12 +2,12 @@ package basic.chapter16.it;
 
 /**
  * @author xiangdotzhaoAtwoqutechcommacom
- * @date 2020/4/16
+ * @date 2020/4/17
  */
 
-public class SleepingState extends State {
+public class SleepingState extends AbstractState {
     @Override
     public void writeProgram(Work work) {
-        System.out.println(String.format("当前时间 %s 点，上午工作，精神百倍", work.getHour()));
+        System.out.println(String.format("当前时间：%s 点不行了，睡着了", work.getHour()));
     }
 }
