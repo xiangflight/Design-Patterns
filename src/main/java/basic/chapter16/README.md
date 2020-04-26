@@ -1,5 +1,5 @@
 ### 场景
-
+有很多if-else逻辑，导致method过大，造成 long method
 
 ### Compare
 
